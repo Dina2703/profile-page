@@ -1,0 +1,28 @@
+
+body {
+    background-color: rgb(226, 196, 200);
+}
+
+.navbar {
+    background-image: linear-gradient(to right,#c19d8f, #e97171 );
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+
+.row-content {
+    margin-top: 8rem;
+    padding: 40px;
+
+}
+
+.row-content:nth-child(2) {
+    margin-top: 0;
+}
+
+
+.site-footer {
+    background-image: linear-gradient(#d1ad9c, rgb(240, 216, 216));
+    padding: 20px 0;
+    
+}

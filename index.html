@@ -7,41 +7,62 @@
 
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Profile page</title>
 </head>
 <body>
-    
-    <nav class="navbar navbar-expand-md navbar-dark sticky-top p-4">
-            <a class="navbar-brand ml-3 text-secondary" href="#"><h5>DINARA IDRISSOVA</h5></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarList"> <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse text-right" id="navbarList">
-                <ul class="navbar-nav ml-auto text-monospace">
-                    <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-                </ul>
+    <header">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top p-4">
+            <div class="container">
+                <a class="navbar-brand ml-3 text-secondary" href="#"><h4>DINARA IDRISSOVA</h4></a>
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarList"> <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-right" id="navbarList">
+                    <ul class="navbar-nav ml-auto text-monospace">
+                        <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    </ul>
+                </div>
             </div>
-    </nav>
-
-
-    <div class="leftside">
-        <ul class="list-unstyled p-2">
-            <a href="#"><li><i class="fa fa-linkedin my-2 text-muted"></i></li></a>
-            <a href="http://facebook.com/"><li><i class="fa fa-facebook fa-lg my-2 text-muted"></i></li></a>
-            <a href="http://instagram.com/"><li><i class="fa fa-instagram my-2 text-muted"></i></li>
-        </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="row row-content align-items-center">
+            <div class="col-12 col-md-6">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam accusamus odit officiis delectus impedit necessitatibus facere fugiat neque soluta voluptates repellat, doloribus eos, repellendus laboriosam animi amet error expedita eligendi.</p>
+            </div>
+            <div class="col col-md-6">
+                <img class="img-fluid rounded" src="https://images.unsplash.com/photo-1545239351-ef35f43d514b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjN8fGJvb2tzJTIwcGlua3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" width="400" alt="a picture">
+            </div>
+        </div>
+    
+        <div class="row row-content align-items-center">
+            <div class="col-12 col-md-6 order-md-last">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam accusamus odit officiis delectus impedit necessitatibus facere fugiat neque soluta voluptates repellat, doloribus eos, repellendus laboriosam animi amet error expedita eligendi.</p>
+            </div>
+            <div class="col col-md-6">
+                <img class="img-fluid rounded" src="https://images.unsplash.com/photo-1595560013331-de1596c72a3c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" width="400" alt="a picture">
+            </div>
+        </div>
     </div>
 
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center ">
+                    <a class="btn btn-social-icon btn-instagram " href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
 
-
-
-
-    
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
